@@ -1,0 +1,16 @@
+Analisa Konvolusi Filter Spasial
+---------------------------------
+Original            : 114.62
+LPF                 : 114.62
+HPF                 : 1.90
+BPF                 : 114.60
+
+Interpretasi:
+- LPF menghasilkan gambar halus (frekuensi tinggi ditekan, noise berkurang).
+- HPF menonjolkan tepi (frekuensi tinggi dipertajam, namun noise meningkat).
+- BPF menggabungkan keduanya untuk memperjelas detail namun tetap halus.
+
+Hubungan domain spasial & frekuensi:
+• Domain spasial: operasi langsung pada piksel dengan kernel.
+• Domain frekuensi: mempengaruhi rentang frekuensi (low/high).
+  LPF → low frequency, HPF → high frequency, BPF → kombinasi keduanya.

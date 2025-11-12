@@ -1,0 +1,10 @@
+Analisa Transformasi Citra
+---------------------------------
+Rata-rata Asli       : 114.62
+Rata-rata Negatif    : 140.38
+Rata-rata Logaritmik : 0.00
+
+Perbandingan:
+- Citra negatif membalik distribusi keabuan, area terang jadi gelap dan sebaliknya.
+- Citra logaritmik memperkuat detail pada area gelap karena fungsi log bersifat non-linear.
+- Transformasi logaritmik lebih bermanfaat untuk gambar dengan rentang dinamis rendah atau area gelap dominan.
